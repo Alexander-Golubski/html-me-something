@@ -1,0 +1,62 @@
+@font-face {
+  font-family: VCR;
+  src: url(VCR_OSD_MONO_1.001.ttf)
+}
+
+header {
+  text-align: center;
+}
+
+nav ul {
+  text-align: center;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 1em;
+  font-size: 0.75em;
+}
+
+body {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: #BFE4E2;
+  font-family: "helvetica";
+  border: 3px solid black;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+header, main {
+  background-color: #CAC9C9;
+}
+
+#banner {
+  background-image: url(ice-wall.jpg);
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  float: left;
+}
+
+.content {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 100px;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: "VCR";
+  color: white;
+}
+
+h2 {
+  font-size: 20px
+}
