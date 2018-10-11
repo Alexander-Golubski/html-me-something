@@ -28,7 +28,7 @@ body {
   border-radius: 15px;
 }
 
-main, footer {
+main {
   background-color: #F2F0F0;
 }
 
@@ -68,4 +68,5 @@ h2 {
 
 p {
   padding-left: 20px;
+  padding-right: 20px;
 }
